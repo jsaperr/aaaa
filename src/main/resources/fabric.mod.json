@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "twosim",
+  "version": "${version}",
+  "name": "2sim",
+  "description": "A mod to change the lowest simulation distance from 5 to 2.",
+  "authors": [
+    "jsaper"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/2sim/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "twosim.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
